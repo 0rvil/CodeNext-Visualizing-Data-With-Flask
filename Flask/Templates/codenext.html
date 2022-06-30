@@ -1,0 +1,964 @@
+
+
+
+
+<!--
+================================================================================
+License for highlightjs (https://highlightjs.org/)
+================================================================================
+
+BSD 3-Clause License
+
+Copyright (c) 2006, Ivan Sagalaev.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type"   content="website" />
+
+    
+    <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/XyDc3_jWOogJZiMHDQAzhYIVeVg3agU_BkqulGenKWWNzyTWr2CocRzNPhkYJrUhP-W1Qqufhbax06faNtvSi9WZIXB57fJOm_zev3Q">
+
+    <meta name="referrer" content="no-referrer" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i,700,700i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+  <title>Code Next</title>
+  <link rel="stylesheet" href="/static/compiled/about.min.css?cache=2ea3825">
+  <meta property="og:url"    content="https://codenext.withgoogle.com" />
+  <meta property="og:title"  content="Code Next" />
+  <meta property="og:image"  content="https://lh3.googleusercontent.com/qEuFfUXWb0GxKOw1kg2DYZtIIr0AmQmIFYUbJMdJAmCnQbsnpCeODqTst79uoZRmzhDXeMBfshF3PwK_MTaLlTzCvh-dQs9D3CWL=h720" />
+  <meta property="og:description"  content="Google&#39;s Code Next program works with high schoolers to cultivate the next generation of Black and Latinx tech leaders." />
+
+
+    
+      
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-127335383-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+    
+  </head>
+
+
+  <body class="cn-students-enabled cn-curriculum-enabled">
+    
+  
+
+
+
+
+
+
+
+<header class="mdc-top-app-bar mdc-top-app-bar--fixed cn-appbar">
+  <div class="mdc-top-app-bar__row">
+
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+      <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button
+                     cn-appbar-menu-button"
+              aria-label="Open navigation menu">
+        menu
+      </button>
+      <a class="cn-centered-row cn-appbar-logo"
+         href="/#welcome"
+         data-base-href="/#welcome">
+        <img src="https://lh3.googleusercontent.com/XyDc3_jWOogJZiMHDQAzhYIVeVg3agU_BkqulGenKWWNzyTWr2CocRzNPhkYJrUhP-W1Qqufhbax06faNtvSi9WZIXB57fJOm_zev3Q" />
+        <label>Code Next</label>
+      </a>
+    </section>
+
+    <section class="mdc-top-app-bar__section cn-appbar-nav">
+      
+        
+        
+        <div class="mdc-menu-surface--anchor">
+    
+          <button class="mdc-button cn-appbar-nav-menu-button" >
+    <div class="mdc-button__ripple"></div>
+    
+    <span class="mdc-button__label">Learn about code next</span>
+  </button>
+        
+    <div class="mdc-menu mdc-menu-surface cn-appbar-nav-menu">
+      <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+        
+          
+            <li class="mdc-list-item cn-appbar-home-link"
+                role="menuitem">
+              <a class="mdc-button"
+                href="/#welcome"
+                data-base-href="/#welcome">
+                <span class="mdc-list-item__ripple"></span>
+                <span class="mdc-list-item__text">Welcome Video</span>
+              </a>
+            </li>
+          
+            <li class="mdc-list-item "
+                role="menuitem">
+              <a class="mdc-button"
+                href="/#intro"
+                data-base-href="/#intro">
+                <span class="mdc-list-item__ripple"></span>
+                <span class="mdc-list-item__text">What is Code Next?</span>
+              </a>
+            </li>
+          
+            <li class="mdc-list-item "
+                role="menuitem">
+              <a class="mdc-button"
+                href="/#program"
+                data-base-href="/#program">
+                <span class="mdc-list-item__ripple"></span>
+                <span class="mdc-list-item__text">What We Offer</span>
+              </a>
+            </li>
+          
+            <li class="mdc-list-item "
+                role="menuitem">
+              <a class="mdc-button"
+                href="/#team"
+                data-base-href="/#team">
+                <span class="mdc-list-item__ripple"></span>
+                <span class="mdc-list-item__text">Team + Partners</span>
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+
+        
+          
+  <a  href="/students" class="mdc-button "
+      data-base-href="/students"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Meet our students</span>
+  </a>
+        
+        
+          
+  <a  href="/curriculum" class="mdc-button "
+      data-base-href="/curriculum"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Get our curriculum</span>
+  </a>
+        
+      
+    </section>
+
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end cn-appbar-actions">
+      
+  
+  <a  href="/#sign-up" class="mdc-button mdc-button--outlined"
+      data-base-href="/#sign-up"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Get Updates</span>
+  </a>
+  
+  <a  href="/application" class="mdc-button mdc-button--raised"
+      target="_blank"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Apply now</span>
+  </a>
+
+    </section>
+  </div>
+</header>
+
+
+<div id="welcome" class="mdc-top-app-bar--fixed-adjust"></div>
+
+<aside class="mdc-drawer mdc-drawer--dismissible cn-drawer">
+  <div class="mdc-drawer__content">
+    <div class="cn-drawer-nav">
+      
+        <h6 class="mdc-list-group__subheader">
+          Learn about code next
+        </h6>
+        <section>
+          
+  
+    
+  <a  href="/#welcome" class="mdc-button cn-appbar-home-link"
+      data-base-href="/#welcome"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Welcome Video</span>
+  </a>
+  
+    
+  <a  href="/#intro" class="mdc-button "
+      data-base-href="/#intro"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">What is Code Next?</span>
+  </a>
+  
+    
+  <a  href="/#program" class="mdc-button "
+      data-base-href="/#program"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">What We Offer</span>
+  </a>
+  
+    
+  <a  href="/#team" class="mdc-button "
+      data-base-href="/#team"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Team + Partners</span>
+  </a>
+  
+
+        </section>
+        <hr class="mdc-list-divider">
+        
+          
+  <a  href="/students" class="mdc-button "
+      data-base-href="/students"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Meet our students</span>
+  </a>
+        
+        
+          
+  <a  href="/curriculum" class="mdc-button "
+      data-base-href="/curriculum"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Get our curriculum</span>
+  </a>
+        
+      
+    </div>
+    <div class="cn-flex-spacer"></div>
+    <div class="cn-drawer-actions">
+      
+  
+  <a  href="/#sign-up" class="mdc-button mdc-button--outlined"
+      data-base-href="/#sign-up"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Get Updates</span>
+  </a>
+  
+  <a  href="/application" class="mdc-button mdc-button--raised"
+      target="_blank"
+    >
+
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Apply now</span>
+  </a>
+
+    </div>
+  </div>
+</aside>
+  <div class="cn-banner cn-video-banner hello
+            ">
+  
+
+  <img class="cn-banner-image cn-video-banner-fallback"
+        src="https://lh3.googleusercontent.com/erw1egeCmOT7WnG_utNDyHlZlHsHDhd13ZIm0s5GYkJk88p7Vzih1-Y-v5a8hnIcVpHRGYkWvxxHeTV1ikIg2E2pUQMaP84klXb0-A=h720"
+        alt="Young black male looks proudly into camera with city skyline in the background." />
+  <div class="cn-banner-content">
+    <div class="cn-banner-text-title">
+      Code Next
+    </div>
+    <div class="cn-banner-text-subtext">
+        Google&#39;s Code Next program works with high schoolers to cultivate the next generation of Black and Latinx tech leaders.
+    </div>
+    <button class="material-icons mdc-icon-button cn-video-play-button"
+            aria-label="Play video">
+      play_circle_outline
+    </button>
+  </div>
+</div>
+
+<div class="cn-video-overlay"
+     data-youtube-video-id="two3sIHsj64">
+  <button class="material-icons mdc-icon-button cn-video-close-button"
+          aria-label="Close video">
+    close
+  </button>
+  <div class="cn-video-overlay-container"></div>
+</div>
+
+  <h1>How does {Code Next} work?</h1>
+
+  
+  <div class="cn-about-responsive-grid">
+    
+      <div class="cn-about-section1-item">
+        <img src="https://lh3.googleusercontent.com/QCWMpfyqVz4_RzefjykLUmvWR2dhTZqEKMz99rexQK5BrNO0qSnhDXDblqlVL78Af9oTgEEaguun5JqYErPQtzf80osjIYz6cnlyNA">
+        <h3>Think</h3>
+         
+          <p>Code Next students join us for programming (either through our physical <i>Code Next Live</i> labs or through our online program, <i>Code Next Connect</i>) to learn about computer science and problem solving. They become creative, computational thinkers.</p>
+        
+      </div>
+    
+      <div class="cn-about-section1-item">
+        <img src="https://lh3.googleusercontent.com/o47uow2syWeT2EgQfm6dVx9oROmWXsfPFwvvfBA_MlQriF0G1aaUxF3c6F1w9OBIV4DD65fFHMzT2WYV82E1IL6ErCn9i7OOAmwi_w">
+        <h3>Make</h3>
+         
+          <p>Students develop into confident, purposeful makers as they engage in both solo and team projects during our programs, which are after school and on the weekends. They produce websites, programs, and other demonstrations of their learning and interests.</p>
+        
+      </div>
+    
+      <div class="cn-about-section1-item">
+        <img src="https://lh3.googleusercontent.com/GW_6IWLQRnFijni_wL2UlzQNjZHT9BZ5AQpiVIOTzaxrr3OrnC_zBVOAmzBn-kbYxNtUPjpnjVS3FV4xysTSdRyRpnEgW0LENMANryo">
+        <h3>Lead</h3>
+         
+          <p>Through community relationships, mentor-mentee relationships with real Googlers, and other courses, Code Next students mature into effective and ethical leaders, ready to take on the world.</p>
+        
+      </div>
+    
+  </div>
+
+  
+  
+
+  
+    
+    <div id="intro" class="mdc-top-app-bar--fixed-adjust">
+    <div class="cn-banner cn-fragment-section-top-element ">
+      <img class="cn-banner-image"
+            src="https://lh3.googleusercontent.com/qEuFfUXWb0GxKOw1kg2DYZtIIr0AmQmIFYUbJMdJAmCnQbsnpCeODqTst79uoZRmzhDXeMBfshF3PwK_MTaLlTzCvh-dQs9D3CWL=h720"
+            alt="Black female student engages with technology." />
+      <div class="cn-banner-content">
+        <div class="cn-banner-text-title">What is Code Next?</div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="cn-about-section2-summary">
+     
+      <p>Code Next is a <strong>free, computer science education program</strong> that meets Black and Latinx high school students in their own communities and provides the skills and inspiration they need for long and rewarding careers in computer science-related fields. Between 2011 and 2018, Black students and Hispanic college students each only made up 3 percent of computer science graduates — Code Next plans to change that.</p>
+    
+  </div>
+
+  <div class="cn-about-responsive-grid">
+    
+      <div class="cn-about-section2-stat">
+        <h3>91.5%</h3>
+         
+          <p>Percentage of our most recent 12th grade graduates <strong>accepted to and attending college/higher education programs.</strong></p>
+        
+      </div>
+    
+      <div class="cn-about-section2-stat">
+        <h3>88.4%</h3>
+         
+          <p>Percentage of our most recent 12th grade graduates <strong>majoring in a STEM (science, technology, engineering, math) field in college.</strong></p>
+        
+      </div>
+    
+      <div class="cn-about-section2-stat">
+        <h3>58.1%</h3>
+         
+          <p>Percentage of our most recent 12th grade graduates <strong>specifically naming “computer science” or “information systems” as their major.</strong></p>
+        
+      </div>
+    
+  </div>
+
+  <div class="cn-about-section2-grid">
+    
+      <div class="cn-about-section2-header">
+        <label>What do students get out of the program?</label>
+      </div>
+      <div class="cn-about-section2-content">
+        
+    <p class="cn-content-paragraph ">So much! Participants engage in curriculum, learn from coaches, and drive their own projects–such as designing and programming a robot and 3D printing an Android chess set. After months of learning, students become creators of technology that they can share with their community. They also gain access to Google mentors, tech experts, and the latest in technologies, from laptops to virtual and augmented reality.</p>
+  
+      </div>
+    
+      <div class="cn-about-section2-header">
+        <label>Is Code Next online or in-person?</label>
+      </div>
+      <div class="cn-about-section2-content">
+        
+    <p class="cn-content-paragraph ">Both! We have our Code Next Live program, consisting of live labs in a few cities across the United States, and Code Next Connect, a fully online program open to students anywhere in the U.S. See more below under “What We Currently Offer.”</p>
+  
+    <p class="cn-content-paragraph ">If you’re interested in creating your own Code Next-like experience, access our<span> </span><a href="/curriculum" target="_blank">free curriculum here</a>!</p>
+  
+      </div>
+    
+  </div>
+
+  
+  
+
+  
+    
+    <div id="program" class="mdc-top-app-bar--fixed-adjust">
+    <div class="cn-banner cn-fragment-section-top-element ">
+      <img class="cn-banner-image"
+            src="https://lh3.googleusercontent.com/sszm2LiNAvJMIBFXkR0c8fhhedyAl7tAVaNyhwLrpI6nHVDyeUuzYTujDR23j497MiN39ViRsNaYS80CZlVYDs2Uy-6ojELsY3RUSw=h720"
+            alt="Diverse set of high school students hang out at the community center." />
+      <div class="cn-banner-content">
+        <div class="cn-banner-text-title">What We Currently Offer</div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+    <div class="cn-about-section3 cn-about-responsive-grid">
+      
+        <div class="cn-about-section3-item">
+          <img src="https://lh3.googleusercontent.com/UtRSGbMzYzF5RMepnjs3BTr9BhuRpq_E4j3z_lkuhcwd_raqClmXT9czTRdCJCdyg-wl8hfLZstSZl6XHJi5QRGyx1GiYQFSDeYc6w" />
+          <h3>Code Next Live</h3>
+          <div>
+            
+    <p class="cn-content-paragraph ">For students who prefer in-person experiences, we currently have three labs, located in <strong>1) Oakland, California, 2) Chelsea, New York, and 3) Harlem, New York</strong>. The Oakland and Chelsea labs are run and managed by Google. The Harlem lab is based at the Boys and Girls Club of Harlem, run and managed in partnership with the New York Urban League and Emerging Leaders in Technology and Engineering (ELiTE). <i>Temporarily, labs conduct virtual-only programming due to COVID-19</i>.</p>
+  
+    <p class="cn-content-paragraph ">Programming is available for 9th-12th grade students who live in the areas around the labs, and cover topics from rigorous coding to entrepreneurship. To learn more about our Code Next Live programs, check out our<span> </span><a href="http://services.google.com/fh/files/misc/codenextapplicationfaq2.pdf" target="_blank">application FAQs</a>.</p>
+  
+          </div>
+        </div>
+      
+        <div class="cn-about-section3-item">
+          <img src="https://lh3.googleusercontent.com/dLh1bPAnqNXkPyd9BpRQy85qUgi_hecnl4wKTrrY80go-fOL2UUNLPMOIMARrwNQRWM-H6m7IU1CUUgK4BXPs_TCNcvuF6xDPvI_0A" />
+          <h3>Code Next Connect</h3>
+          <div>
+            
+    <p class="cn-content-paragraph ">For <strong>students who live outside of our lab cities</strong>, our Connect program is our online program for high school students across the United States. Connect consists of various clubs that students can apply to be a part of, where they engage in lessons with real Google employees. Club topics range from game design to hardware development.</p>
+  
+    <p class="cn-content-paragraph ">Programming is open to high school students anywhere in the United States, though we specifically target 9th-10th grade students. Clubs happen three times a year: fall term, winter term, and spring term (we break for summer). To learn more about our Code Next Connect programs, check out our<span> </span><a href="http://services.google.com/fh/files/misc/codenextapplicationfaq2.pdf" target="_blank">application FAQs</a>.</p>
+  
+          </div>
+        </div>
+      
+    </div>
+  
+
+  
+  
+
+  
+    
+    <div id="team" class="mdc-top-app-bar--fixed-adjust">
+    <div class="cn-banner cn-fragment-section-top-element ">
+      <img class="cn-banner-image"
+            src="https://lh3.googleusercontent.com/a3Nh70LT_T4GRMP5mL1WXsALw9OPq-JG17j6fXOLFlewchWFldh1J-A2WY9eq6jEqndM9y7wT4ZceaC94-HGyBYc2wrwX0pbrlfHpJ8=h720"
+            alt="Our team and the community celebrates a milestone of a community adult learning coding skills in the center." />
+      <div class="cn-banner-content">
+        <div class="cn-banner-text-title">Our Team and Partners</div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="cn-about-section4-team">
+    
+      <h4>OUR TEAM</h4>
+      <p>
+        The Code Next staff brings together coaches experienced in education, computer science, and engineering. Coaches represent our students&#39; backgrounds and work to create a culture of inclusion, where everyone feels respected and connected to one another.
+        
+          <a href="" target="_blank">
+            
+          </a>
+        
+      </p>
+    
+      <h4>OUR PARTNERS</h4>
+      <p>
+        This work isn’t possible without our partners, who do incredible work in our students’ communities. Below represents a small sampling of the nonprofits, research organizations, and schools that we have worked with and/or currently work with.
+        
+          <a href="" target="_blank">
+            
+          </a>
+        
+      </p>
+    
+  </div>
+
+  <div class="cn-about-section4-partners">
+    
+      
+        <a href="https://www.nyul.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/gb6RhOSMldwq13LjrMrQejwxqAS3ApfbUt04_0K3U40D_tLB4nbDbijyie_nhnXiaNfXuEZc3meUWla5c0QWxbEKJ0WiLtRPsIHoCX0=s200" alt="Logo for New York Urban League." />
+        </a>
+      
+    
+      
+        <a href="https://unitycouncil.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/-qyOkluwMLTq5lZ8zXrpB64ujTztOQweo7-bfCvjID57Ic0tlcKEE6XDHIwjxSLGqoJAtbvaWN0bi20iuPFAO0-LB34-rooa3usQ=s200" alt="Logo for The Unity Council." />
+        </a>
+      
+    
+      
+        <a href="https://www.media.mit.edu/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/OJaZ2kIcBRBmgfKbYWTnHhON3DaY7YoqV44eAaAcp3EP0zc2NqtS6wxKpJG27B1vjnARwnXeuCfHrWXnj4G8szoFxAiveTSIzDHpJA=s200" alt="Logo for the MIT Media Lab." />
+        </a>
+      
+    
+      
+        <a href="https://www.bgcharlem.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/3MYukgHFXy9PNq2pvGhO5niJ8aULQV7IoeeREO2OoMUGZhNayc0tnUiTuZDKqiA0JuVerh_KnpIjk6v5YcVOM0KVgAssb7EL4IQFOw=s200" alt="Logo for the Boys and Girls Club." />
+        </a>
+      
+    
+      
+        <a href="http://www.elite-education.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/MbouSpYJPJ1yc_VcZNfev105qk6u0GQd-pZqSaCWvzPjhxaam1WU9BgSzm9qwsABf0VrzPm45rmH_sODvzT_jOIGGFdqMUnTWFJgUQ=s200" alt="Logo for a ELiTE Education." />
+        </a>
+      
+    
+      
+        <a href="https://www.edc.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/bEOeZHEb3slLletsbSt34gr1VPFb5csS-Ltee3z8LqnNoVs5w2TwVggx372p-cmWjpofrvm8gqelDQNAnCpxlEApE3V4R9U4X6Fl-g=s200" alt="Logo for Education Development Center." />
+        </a>
+      
+    
+      
+        <a href="http://www.langstonleague.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/VpzsHFIUQs_74dO1TmABI9M3KWKf5AdQbVeH1DVREDOxlKX54REtJQM96RmAOOLTE9UP82nS-g4SOSnzhCXSmL9CMczM0sJyjUjNbg=s200" alt="Logo for Langston League." />
+        </a>
+      
+    
+      
+        <a href="https://studentsrisingabove.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/mQeseTR6bI343emFOXjmsJ86Ha0GklFxIHMzfFVNcOtW2RhxWm9w_TlBLfZYZ2sjt1R0H9LQnkED7V8LFLRlMm4TKVi9uOyB5CbdiqQ=s200" alt="Logo for Students Rising Above." />
+        </a>
+      
+    
+      
+        <a href="https://door.org/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/U5MnATSKppYjHUO_sHmILW5Z_4yY2bJlgyeAnrzXfLdpnAu8m4pMCpA4HLj7aV3hro5jRDL5K-c9BWmpYO8NyIU9YyYBiXyMBz-O=s200" alt="Logo for The Door." />
+        </a>
+      
+    
+      
+        <a href="https://kurani.us/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/8AURt28SvgrCCFGR7Y24IQt5Q1FUYkG3GcPW10t6Z9x4xjZ-IUTuCDA9r1xs8kQP30yo4ibWg4lWEhcUodGdGuPtt9MZ9iz9CF6LvR0=s200" alt="Logo for Kurani." />
+        </a>
+      
+    
+      
+        <a href="http://raspberrypi.org" target="_blank">
+          <img src="https://lh3.googleusercontent.com/UbSGx81Hfnj1S4KeJ2Z_uaz8DCxXstHeLWYM_kmx-Xll4qCR-m2fQybn63ifTYGF-SlZnqX6KDild6kER7oa-cLkWfIP6NDgKqSM7w=s200" alt="Logo for Raspberry Pi." />
+        </a>
+      
+    
+  </div>
+
+  
+
+
+
+<div id="sign-up" class="cn-about-sign-up">
+  <div class="cn-about-sign-up-content">
+    
+    
+      <p>Looking to get regular updates on the Code Next program and computer science education news?</p>
+      <p><strong>Sign up</strong> for our quarterly newsletter below!</p>
+    
+
+    
+    <label class="mdc-text-field mdc-text-field--outlined
+                  cn-about-sign-up-email">
+      
+      <input type="text"
+             class="mdc-text-field__input"
+             aria-labelledby="cn-uid-56615"
+             
+               aria-describedby="cn-uid-56616"
+             
+             required>
+      <span class="mdc-notched-outline">
+        <span class="mdc-notched-outline__leading"></span>
+        <span class="mdc-notched-outline__notch">
+          <span class="mdc-floating-label" id="cn-uid-56615">Email address</span>
+        </span>
+        <span class="mdc-notched-outline__trailing"></span>
+      </span>
+    </label>
+    
+      <div class="mdc-text-field-helper-line">
+        <div class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg"
+             id="cn-uid-56616"
+             aria-hidden="true">
+          Invalid email
+        </div>
+      </div>
+    
+  
+
+    
+    
+    <div class="mdc-select mdc-select--outlined cn-about-sign-up-language mdc-select--required">
+      <div class="mdc-select__anchor"
+           role="button"
+           aria-haspopup="listbox"
+           aria-labelledby="cn-uid-56618 cn-uid-56617"
+           aria-required="true">
+        <span id="cn-uid-56618" class="mdc-select__selected-text"></span>
+        <span class="mdc-select__dropdown-icon">
+    <svg
+        class="mdc-select__dropdown-icon-graphic"
+        viewBox="7 10 10 5">
+      <polygon
+          class="mdc-select__dropdown-icon-inactive"
+          stroke="none"
+          fill-rule="evenodd"
+          points="7 10 12 15 17 10">
+      </polygon>
+      <polygon
+          class="mdc-select__dropdown-icon-active"
+          stroke="none"
+          fill-rule="evenodd"
+          points="7 15 12 10 17 15">
+      </polygon>
+    </svg>
+  </span>
+        <span class="mdc-notched-outline">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__notch">
+            <span id="cn-uid-56617" class="mdc-floating-label">Preferred language</span>
+          </span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+      </div>
+
+      <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth"
+       role="listbox">
+    <ul class="mdc-list">
+      
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="English (Inglés)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">English (Inglés)</span>
+  </li>
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="Spanish (Español)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Spanish (Español)</span>
+  </li>
+      
+    
+    </ul>
+  </div>
+    </div>
+  
+
+    
+    
+    <div class="mdc-select mdc-select--outlined cn-about-sign-up-role mdc-select--required">
+      <div class="mdc-select__anchor"
+           role="button"
+           aria-haspopup="listbox"
+           aria-labelledby="cn-uid-56620 cn-uid-56619"
+           aria-required="true">
+        <span id="cn-uid-56620" class="mdc-select__selected-text"></span>
+        <span class="mdc-select__dropdown-icon">
+    <svg
+        class="mdc-select__dropdown-icon-graphic"
+        viewBox="7 10 10 5">
+      <polygon
+          class="mdc-select__dropdown-icon-inactive"
+          stroke="none"
+          fill-rule="evenodd"
+          points="7 10 12 15 17 10">
+      </polygon>
+      <polygon
+          class="mdc-select__dropdown-icon-active"
+          stroke="none"
+          fill-rule="evenodd"
+          points="7 15 12 10 17 15">
+      </polygon>
+    </svg>
+  </span>
+        <span class="mdc-notched-outline">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__notch">
+            <span id="cn-uid-56619" class="mdc-floating-label">Role</span>
+          </span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+      </div>
+
+      <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth"
+       role="listbox">
+    <ul class="mdc-list">
+      
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="Student (Estudiante)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Student (Estudiante)</span>
+  </li>
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="Parent or Guardian (Tutor Legal)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Parent or Guardian (Tutor Legal)</span>
+  </li>
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="Educator (Educador)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Educator (Educador)</span>
+  </li>
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="Nonprofit (Organización Sin Ánimo de Lucro)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Nonprofit (Organización Sin Ánimo de Lucro)</span>
+  </li>
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="Corporation (Corporación)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Corporation (Corporación)</span>
+  </li>
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="Other (Otro)">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Other (Otro)</span>
+  </li>
+      
+    
+    </ul>
+  </div>
+    </div>
+  
+
+    <p class="cn-about-sign-up-success">Thanks for signing up! You will hear from us soon!</p>
+    <p class="cn-about-sign-up-remote-failure">There was an error submitting your information. Please try again later.</p>
+    <p class="cn-about-sign-up-validation-failure"></p>
+
+    <button class="mdc-button mdc-button--raised cn-about-sign-up-submit" >
+    <div class="mdc-button__ripple"></div>
+    
+    <span class="mdc-button__label">Get updates</span>
+  </button>
+  </div>
+</div>
+  
+
+
+
+
+
+<div class="cn-footer">
+  <div class="cn-footer-content">
+    <div class="cn-footer-content-left">
+      <a class="mdc-button cn-footer-logo" href="https://edu.google.com/code-with-google" target="_blank">
+        <div class="mdc-button__ripple"></div>
+        <img src="/static/images/cwg_logo.png?cache=2ce54e4" />
+      </a>
+      
+        <a class="mdc-button" href="https://policies.google.com/privacy" target="_blank">
+    <div class="mdc-button__ripple"></div>
+    
+    <span class="mdc-button__label">Privacy</span>
+  </a>
+      
+        <a class="mdc-button" href="https://policies.google.com/terms" target="_blank">
+    <div class="mdc-button__ripple"></div>
+    
+    <span class="mdc-button__label">Terms</span>
+  </a>
+      
+        <a class="mdc-button" href="https://www.google.com/about" target="_blank">
+    <div class="mdc-button__ripple"></div>
+    
+    <span class="mdc-button__label">About Google</span>
+  </a>
+      
+        <a class="mdc-button" href="https://diversity.google/" target="_blank">
+    <div class="mdc-button__ripple"></div>
+    
+    <span class="mdc-button__label">Google Diversity</span>
+  </a>
+      
+    </div>
+
+    <div class="cn-footer-content-right">
+      <a class="mdc-button" href="https://support.google.com/" target="_blank">
+    <div class="mdc-button__ripple"></div>
+    
+      <i class="material-icons mdc-button__icon" aria-hidden="true">help</i>
+    
+    <span class="mdc-button__label">Help</span>
+  </a>
+
+      
+      
+    <div class="mdc-select cn-footer-language">
+      <div class="mdc-select__anchor"
+           role="button"
+           aria-haspopup="listbox"
+           aria-labelledby="cn-uid-56622 cn-uid-56621"
+           >
+        <span class="mdc-select__ripple"></span>
+        <span id="cn-uid-56622" class="mdc-select__selected-text">
+          None
+        </span>
+        <span class="mdc-select__dropdown-icon">
+    <svg
+        class="mdc-select__dropdown-icon-graphic"
+        viewBox="7 10 10 5">
+      <polygon
+          class="mdc-select__dropdown-icon-inactive"
+          stroke="none"
+          fill-rule="evenodd"
+          points="7 10 12 15 17 10">
+      </polygon>
+      <polygon
+          class="mdc-select__dropdown-icon-active"
+          stroke="none"
+          fill-rule="evenodd"
+          points="7 15 12 10 17 15">
+      </polygon>
+    </svg>
+  </span>
+        <span id="demo-label" class="mdc-floating-label mdc-floating-label--float-above">
+          Preferred language
+        </span>
+      </div>
+
+      <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth"
+       role="listbox">
+    <ul class="mdc-list">
+      
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="en">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">English (Inglés)</span>
+  </li>
+        <li class="mdc-list-item hello"
+      classb="mdc-list-item hello"
+      data-value="es">
+    <span class="mdc-list-item__ripple"></span>
+    <span class="mdc-list-item__text">Spanish (Español)</span>
+  </li>
+      
+    </ul>
+  </div>
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+
+    
+    <script>
+      const cnKcEl = document.createElement('div');
+      const QUOTE_ESCAPE = '__cn_tmp_dbl_quot__';
+
+
+      // A bad hack. If there are double quotes (") in the content, JSON parsing fails. So we escape
+      // that character.
+      cnKcEl.innerHTML = `{&#34;top_section&#34;: {&#34;workspace_id&#34;: &#34;published&#34;, &#34;section_title&#34;: &#34;How does {Code Next} work?&#34;, &#34;overlay_video_close_button_text&#34;: &#34;Close video&#34;, &#34;site_id&#34;: &#34;codenext&#34;, &#34;overlay_video_play_button_text&#34;: &#34;Play video&#34;, &#34;columns&#34;: [{&#34;body&#34;: &#34;Code Next students join us for programming (either through our physical &lt;i&gt;Code Next Live&lt;/i&gt; labs or through our online program, &lt;i&gt;Code Next Connect&lt;/i&gt;) to learn about computer science and problem solving. They become creative, computational thinkers.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/QCWMpfyqVz4_RzefjykLUmvWR2dhTZqEKMz99rexQK5BrNO0qSnhDXDblqlVL78Af9oTgEEaguun5JqYErPQtzf80osjIYz6cnlyNA&#34;, &#34;width&#34;: 92, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2e8c011437e94d73b09f525a159276b0_/444ffd0aac050b5f88a5d3ae1f1cff5d1cc160c076f185569eead9c7093a56a86d697a77255fa1a96951ec68d21822544078ea2ea5595ecde0632b3836a0af62&#34;, &#34;height&#34;: 92}, &#34;title&#34;: &#34;Think&#34;}, {&#34;body&#34;: &#34;Students develop into confident, purposeful makers as they engage in both solo and team projects during our programs, which are after school and on the weekends. They produce websites, programs, and other demonstrations of their learning and interests.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/o47uow2syWeT2EgQfm6dVx9oROmWXsfPFwvvfBA_MlQriF0G1aaUxF3c6F1w9OBIV4DD65fFHMzT2WYV82E1IL6ErCn9i7OOAmwi_w&#34;, &#34;width&#34;: 80, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2e8c011437e94d73b09f525a159276b0_/2f40ebf831231d1bea5560027c8454d88e0c30d6d3167994001f98577ec641ad5f904eca9881d7608976e1a7203cda37fe9ca5fe38244895774294a41c779f5e&#34;, &#34;height&#34;: 80}, &#34;title&#34;: &#34;Make&#34;}, {&#34;body&#34;: &#34;Through community relationships, mentor-mentee relationships with real Googlers, and other courses, Code Next students mature into effective and ethical leaders, ready to take on the world.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/GW_6IWLQRnFijni_wL2UlzQNjZHT9BZ5AQpiVIOTzaxrr3OrnC_zBVOAmzBn-kbYxNtUPjpnjVS3FV4xysTSdRyRpnEgW0LENMANryo&#34;, &#34;width&#34;: 82, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2e8c011437e94d73b09f525a159276b0_/575881a9a4ca2ae56515941f6e449c0fea45dce4b1e970edb41ee59a2bf8bff8a857dfe9e4d903ecc10f6accbb73437efb41935ec13edd0ee8843660b80cc807&#34;, &#34;height&#34;: 82}, &#34;title&#34;: &#34;Lead&#34;}], &#34;banner&#34;: {&#34;image_alt_text&#34;: &#34;Young black male looks proudly into camera with city skyline in the background.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/erw1egeCmOT7WnG_utNDyHlZlHsHDhd13ZIm0s5GYkJk88p7Vzih1-Y-v5a8hnIcVpHRGYkWvxxHeTV1ikIg2E2pUQMaP84klXb0-A&#34;, &#34;width&#34;: 2000, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2e8c011437e94d73b09f525a159276b0_/f46b991472f489a6e0784bbda29b46e59fb65ddbaaf14fafeb3537edbf4092756ed7bb1f7b632cec3f23f697adf917db8d02fc932efaeb12f40cefdfc8f4ead2&#34;, &#34;height&#34;: 1120}, &#34;overlay_title&#34;: &#34;Code Next&#34;, &#34;overlay_text&#34;: &#34;Google&#39;s Code Next program works with high schoolers to cultivate the next generation of Black and Latinx tech leaders.&#34;}, &#34;overlay_video_youtube_id&#34;: &#34;two3sIHsj64&#34;}, &#34;sign_up_form&#34;: {&#34;message_1&#34;: &#34;Looking to get regular updates on the Code Next program and computer science education news?&#34;, &#34;message_2&#34;: &#34;&lt;strong&gt;Sign up&lt;/strong&gt; for our quarterly newsletter below!&#34;, &#34;workspace_id&#34;: &#34;published&#34;, &#34;submitting_button_text&#34;: &#34;Submitting&#34;, &#34;site_id&#34;: &#34;codenext&#34;, &#34;failure_message&#34;: &#34;There was an error submitting your information. Please try again later.&#34;, &#34;email_validation&#34;: &#34;Invalid email&#34;, &#34;email_placeholder&#34;: &#34;Email address&#34;, &#34;role_options&#34;: [&#34;Student (Estudiante)&#34;, &#34;Parent or Guardian (Tutor Legal)&#34;, &#34;Educator (Educador)&#34;, &#34;Nonprofit (Organizaci\u00f3n Sin \u00c1nimo de Lucro)&#34;, &#34;Corporation (Corporaci\u00f3n)&#34;, &#34;Other (Otro)&#34;], &#34;role_placeholder&#34;: &#34;Role&#34;, &#34;submit_button_text&#34;: &#34;Get updates&#34;, &#34;language_placeholder&#34;: &#34;Preferred language&#34;, &#34;language_options&#34;: [&#34;English (Ingl\u00e9s)&#34;, &#34;Spanish (Espa\u00f1ol)&#34;], &#34;required_fields_validation&#34;: &#34;All fields are required&#34;, &#34;success_message&#34;: &#34;Thanks for signing up! You will hear from us soon!&#34;}, &#34;footer&#34;: {&#34;help_link&#34;: {&#34;destination&#34;: &#34;https://support.google.com/&#34;, &#34;title&#34;: &#34;Help&#34;}, &#34;site_id&#34;: &#34;codenext&#34;, &#34;workspace_id&#34;: &#34;published&#34;, &#34;links&#34;: [{&#34;destination&#34;: &#34;https://policies.google.com/privacy&#34;, &#34;title&#34;: &#34;Privacy&#34;}, {&#34;destination&#34;: &#34;https://policies.google.com/terms&#34;, &#34;title&#34;: &#34;Terms&#34;}, {&#34;destination&#34;: &#34;https://www.google.com/about&#34;, &#34;title&#34;: &#34;About Google&#34;}, {&#34;destination&#34;: &#34;https://diversity.google/&#34;, &#34;title&#34;: &#34;Google Diversity&#34;}], &#34;help_link_image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/F4Eys32_fTijvLIxxbmdd6_RxY7a4QFqJT6LDAJ2rOjLFJQOJhxwIJB1zK0u1s9F0kfS1kdXZe-wpqXtoNUkB51swzdmXmoAYKhg&#34;, &#34;width&#34;: 48, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/undefined/61aa566438c6ae427e256791a3c2988c4d4afbb870751036e10bca2187c95f66312dc41577e4e121a768762ff66c39189503eb9cc44bf74c3122c6a6b5b981ca&#34;, &#34;height&#34;: 48}}, &#34;intro_section&#34;: {&#34;rows&#34;: [{&#34;body&#34;: [{&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;So much! Participants engage in curriculum, learn from coaches, and drive their own projects\u2013such as designing and programming a robot and 3D printing an Android chess set. After months of learning, students become creators of technology that they can share with their community. They also gain access to Google mentors, tech experts, and the latest in technologies, from laptops to virtual and augmented reality.&#34;}]}], &#34;title&#34;: &#34;What do students get out of the program?&#34;}, {&#34;body&#34;: [{&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;Both! We have our Code Next Live program, consisting of live labs in a few cities across the United States, and Code Next Connect, a fully online program open to students anywhere in the U.S. See more below under \u201cWhat We Currently Offer.\u201d&#34;}]}, {&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;If you\u2019re interested in creating your own Code Next-like experience, access our&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;/curriculum&#34;, &#34;title&#34;: &#34;free curriculum here&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: true, &#34;text&#34;: &#34;&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;!&#34;}]}], &#34;title&#34;: &#34;Is Code Next online or in-person?&#34;}], &#34;stats&#34;: [{&#34;content&#34;: &#34;Percentage of our most recent 12th grade graduates &lt;strong&gt;accepted to and attending college/higher education programs.&lt;/strong&gt;&#34;, &#34;title&#34;: &#34;91.5%&#34;}, {&#34;content&#34;: &#34;Percentage of our most recent 12th grade graduates &lt;strong&gt;majoring in a STEM (science, technology, engineering, math) field in college.&lt;/strong&gt;&#34;, &#34;title&#34;: &#34;88.4%&#34;}, {&#34;content&#34;: &#34;Percentage of our most recent 12th grade graduates &lt;strong&gt;specifically naming \u201ccomputer science\u201d or \u201cinformation systems\u201d as their major.&lt;/strong&gt;&#34;, &#34;title&#34;: &#34;58.1%&#34;}], &#34;workspace_id&#34;: &#34;published&#34;, &#34;site_id&#34;: &#34;codenext&#34;, &#34;summary&#34;: &#34;Code Next is a &lt;strong&gt;free, computer science education program&lt;/strong&gt; that meets Black and Latinx high school students in their own communities and provides the skills and inspiration they need for long and rewarding careers in computer science-related fields. Between 2011 and 2018, Black students and Hispanic college students each only made up 3 percent of computer science graduates \u2014 Code Next plans to change that.&#34;, &#34;banner&#34;: {&#34;image_alt_text&#34;: &#34;Black female student engages with technology.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/qEuFfUXWb0GxKOw1kg2DYZtIIr0AmQmIFYUbJMdJAmCnQbsnpCeODqTst79uoZRmzhDXeMBfshF3PwK_MTaLlTzCvh-dQs9D3CWL&#34;, &#34;width&#34;: 5472, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_28bf5055f6404e719543b05e878042e2_/5ae211934d8197e7bacd494fd3b378ed2ce7b61b0b6e4aa8916d4e4c14cc2bd48cc7b80836d3eb7ed4cfd2c96e7e94d382ed4a777f1aadf989d3645f30f25c4c&#34;, &#34;height&#34;: 2493}, &#34;overlay_title&#34;: &#34;What is Code Next?&#34;, &#34;overlay_text&#34;: &#34;&#34;}}, &#34;header&#34;: {&#34;side_nav_button&#34;: &#34;Open navigation menu&#34;, &#34;sign_up_section_meta&#34;: {&#34;fragment_id&#34;: &#34;sign-up&#34;, &#34;label&#34;: &#34;Get Updates&#34;}, &#34;about_page_menu&#34;: &#34;Learn about code next&#34;, &#34;workspace_id&#34;: &#34;published&#34;, &#34;app_icon&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/XyDc3_jWOogJZiMHDQAzhYIVeVg3agU_BkqulGenKWWNzyTWr2CocRzNPhkYJrUhP-W1Qqufhbax06faNtvSi9WZIXB57fJOm_zev3Q&#34;, &#34;width&#34;: 48, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/undefined/352e859445fbd3ba8cd58aa7b320ab563443cbe25f8dd2df51b60c46746e3876090d2d8d85b77477aee4ad0b2d3312feb207aad69b55002008d0f5e065f91513&#34;, &#34;height&#34;: 48}, &#34;page_section_metas&#34;: [{&#34;fragment_id&#34;: &#34;welcome&#34;, &#34;label&#34;: &#34;Welcome Video&#34;}, {&#34;fragment_id&#34;: &#34;intro&#34;, &#34;label&#34;: &#34;What is Code Next?&#34;}, {&#34;fragment_id&#34;: &#34;program&#34;, &#34;label&#34;: &#34;What We Offer&#34;}, {&#34;fragment_id&#34;: &#34;team&#34;, &#34;label&#34;: &#34;Team + Partners&#34;}], &#34;site_id&#34;: &#34;codenext&#34;, &#34;students_page_link&#34;: &#34;Meet our students&#34;, &#34;curriculum_page_link&#34;: &#34;Get our curriculum&#34;, &#34;apply_now_button_text&#34;: &#34;Apply now&#34;}, &#34;team_section&#34;: {&#34;logos&#34;: [{&#34;image_alt_text&#34;: &#34;Logo for New York Urban League.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/gb6RhOSMldwq13LjrMrQejwxqAS3ApfbUt04_0K3U40D_tLB4nbDbijyie_nhnXiaNfXuEZc3meUWla5c0QWxbEKJ0WiLtRPsIHoCX0&#34;, &#34;width&#34;: 199, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/6f2bb698dc9704c177fd2357599bbcce66ee8cd58fd6611b9b755c1b2a30ddc7565ad15993a2c931a451cccf5f4ac43382863cddb72f126d3a1e1a8c20eef011&#34;, &#34;height&#34;: 91}, &#34;link_destination&#34;: &#34;https://www.nyul.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for The Unity Council.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/-qyOkluwMLTq5lZ8zXrpB64ujTztOQweo7-bfCvjID57Ic0tlcKEE6XDHIwjxSLGqoJAtbvaWN0bi20iuPFAO0-LB34-rooa3usQ&#34;, &#34;width&#34;: 434, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/4057ea4b41e8051669764e9bcfe75dc2737b227eeef332cf9b67dac1b7d725e9ea72fa582c9c4c464767ac685bda1aefd39a04bcd57302d73c84929323390ca4&#34;, &#34;height&#34;: 206}, &#34;link_destination&#34;: &#34;https://unitycouncil.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for the MIT Media Lab.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/OJaZ2kIcBRBmgfKbYWTnHhON3DaY7YoqV44eAaAcp3EP0zc2NqtS6wxKpJG27B1vjnARwnXeuCfHrWXnj4G8szoFxAiveTSIzDHpJA&#34;, &#34;width&#34;: 2013, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/e2b5a8f684176d98bed56b44bd70c69b49e2f4cadd2f9b894223303e7a5656284fda9df41d9337f0ea4353329f44bc5cbbd3e5c2c70358b8a24d5dc5a42bfb7b&#34;, &#34;height&#34;: 1302}, &#34;link_destination&#34;: &#34;https://www.media.mit.edu/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for the Boys and Girls Club.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/3MYukgHFXy9PNq2pvGhO5niJ8aULQV7IoeeREO2OoMUGZhNayc0tnUiTuZDKqiA0JuVerh_KnpIjk6v5YcVOM0KVgAssb7EL4IQFOw&#34;, &#34;width&#34;: 2048, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/d1d78280a4f93b94d36f0ea03f33f435a454ae921737a672842536170015fdeee81a6265e9621a454c13886ec898b556b8bbe04a25e841df23a55d89653c6892&#34;, &#34;height&#34;: 1376}, &#34;link_destination&#34;: &#34;https://www.bgcharlem.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for a ELiTE Education.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/MbouSpYJPJ1yc_VcZNfev105qk6u0GQd-pZqSaCWvzPjhxaam1WU9BgSzm9qwsABf0VrzPm45rmH_sODvzT_jOIGGFdqMUnTWFJgUQ&#34;, &#34;width&#34;: 2800, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/56c88a03136fa5bea34f43be8bacdf612bee4e490ac35c53f99f9bbfff6f6664e39844e55a824af43cbeb01fe955f1271fcc8144249d58bc64ba7d46b1ed808e&#34;, &#34;height&#34;: 1450}, &#34;link_destination&#34;: &#34;http://www.elite-education.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for Education Development Center.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/bEOeZHEb3slLletsbSt34gr1VPFb5csS-Ltee3z8LqnNoVs5w2TwVggx372p-cmWjpofrvm8gqelDQNAnCpxlEApE3V4R9U4X6Fl-g&#34;, &#34;width&#34;: 1350, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/b2bd8a3cd572133f1dd1816c200b357002015b53cca23d2893a85ce99a2d5931709c52174f1ffe6800de4f2081d4e145fa2e9061d7b6b87127f9ed91741bfdfa&#34;, &#34;height&#34;: 665}, &#34;link_destination&#34;: &#34;https://www.edc.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for Langston League.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/VpzsHFIUQs_74dO1TmABI9M3KWKf5AdQbVeH1DVREDOxlKX54REtJQM96RmAOOLTE9UP82nS-g4SOSnzhCXSmL9CMczM0sJyjUjNbg&#34;, &#34;width&#34;: 1500, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/8911700f4f27c50cd20fbd398f0dc13f2ff686e20217e7ce2eb7f519cda07390e9ceafd3897bb88f775263870da22025f11fe3e347dd93bf2783edf1839ad443&#34;, &#34;height&#34;: 1500}, &#34;link_destination&#34;: &#34;http://www.langstonleague.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for Students Rising Above.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/mQeseTR6bI343emFOXjmsJ86Ha0GklFxIHMzfFVNcOtW2RhxWm9w_TlBLfZYZ2sjt1R0H9LQnkED7V8LFLRlMm4TKVi9uOyB5CbdiqQ&#34;, &#34;width&#34;: 286, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/79799f3c79efa7a9338742798aec975995e6218aa8ef85f4cf8b109f0cb19eaa07b009af99c00252c757fd743bcdd28a4964a20a25a5e3be2ebe770bd39f50eb&#34;, &#34;height&#34;: 179}, &#34;link_destination&#34;: &#34;https://studentsrisingabove.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for The Door.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/U5MnATSKppYjHUO_sHmILW5Z_4yY2bJlgyeAnrzXfLdpnAu8m4pMCpA4HLj7aV3hro5jRDL5K-c9BWmpYO8NyIU9YyYBiXyMBz-O&#34;, &#34;width&#34;: 800, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/15a122081067c84224d0539c16d06ef6d90e45180ec13f79c59fad272600f95f3fd593e3674f34661424732efd58ff9ce49d8e3b7e23d6d43ca2ecb78a7c8c51&#34;, &#34;height&#34;: 496}, &#34;link_destination&#34;: &#34;https://door.org/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for Kurani.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/8AURt28SvgrCCFGR7Y24IQt5Q1FUYkG3GcPW10t6Z9x4xjZ-IUTuCDA9r1xs8kQP30yo4ibWg4lWEhcUodGdGuPtt9MZ9iz9CF6LvR0&#34;, &#34;width&#34;: 200, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/86ff2669d23ad8946ce050f6455f7a6a1db3acd8ed66e9130426dc5ef9706d7efe1b5846b760285a9e867c578a10fc273da6b3df22e2b11ca9d440d67820d54d&#34;, &#34;height&#34;: 200}, &#34;link_destination&#34;: &#34;https://kurani.us/&#34;}, {&#34;image_alt_text&#34;: &#34;Logo for Raspberry Pi.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/UbSGx81Hfnj1S4KeJ2Z_uaz8DCxXstHeLWYM_kmx-Xll4qCR-m2fQybn63ifTYGF-SlZnqX6KDild6kER7oa-cLkWfIP6NDgKqSM7w&#34;, &#34;width&#34;: 493, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/e10359dbc1ed43a3bfee15a1b9c0076c43eb0091c57af2974a779653a04fa526f3c3135a33abaccade89e6660d022d3867fc12da1c498a4ca800f6346626705a&#34;, &#34;height&#34;: 620}, &#34;link_destination&#34;: &#34;http://raspberrypi.org&#34;}], &#34;site_id&#34;: &#34;codenext&#34;, &#34;rows&#34;: [{&#34;body&#34;: &#34;The Code Next staff brings together coaches experienced in education, computer science, and engineering. Coaches represent our students&#39; backgrounds and work to create a culture of inclusion, where everyone feels respected and connected to one another.&#34;, &#34;terminating_link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;title&#34;: &#34;OUR TEAM&#34;}, {&#34;body&#34;: &#34;This work isn\u2019t possible without our partners, who do incredible work in our students\u2019 communities. Below represents a small sampling of the nonprofits, research organizations, and schools that we have worked with and/or currently work with.&#34;, &#34;terminating_link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;title&#34;: &#34;OUR PARTNERS&#34;}], &#34;banner&#34;: {&#34;image_alt_text&#34;: &#34;Our team and the community celebrates a milestone of a community adult learning coding skills in the center.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/a3Nh70LT_T4GRMP5mL1WXsALw9OPq-JG17j6fXOLFlewchWFldh1J-A2WY9eq6jEqndM9y7wT4ZceaC94-HGyBYc2wrwX0pbrlfHpJ8&#34;, &#34;width&#34;: 1500, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_2487499e66a54db99e45073fc4ac1dad_/7004d2659924268f054271b49ab408b4318181a52acc675e686af8cb889dec5dd972479756bd4291ec2742d99f8c929743a558dde06e21496751fc0bc6d0b849&#34;, &#34;height&#34;: 678}, &#34;overlay_title&#34;: &#34;Our Team and Partners&#34;, &#34;overlay_text&#34;: &#34;&#34;}, &#34;workspace_id&#34;: &#34;published&#34;}, &#34;students_page&#34;: {&#34;search_placeholder&#34;: &#34;Search students&#34;, &#34;page_title&#34;: &#34;Students&#34;, &#34;workspace_id&#34;: &#34;published&#34;, &#34;view_profile_button&#34;: &#34;View profile&#34;, &#34;filter_clear_button&#34;: &#34;Clear&#34;, &#34;empty_search_secondary&#34;: &#34;Try another search or remove some filters.&#34;, &#34;site_id&#34;: &#34;codenext&#34;, &#34;lab_placeholder&#34;: &#34;Lab&#34;, &#34;empty_search_primary&#34;: &#34;No students match your search&#34;, &#34;banner&#34;: {&#34;image_alt_text&#34;: &#34;Diverse set of high school students hang out at the community center.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/TCdJ47j4lMNkWRIW8fCHwfW7lufeR02AcSHUG4fBkdpSU0ZzTDzKF1-s6wxltruZPJ1AC-b4zOHUbt4E2_9XlYlKpEr45QGfYXXB&#34;, &#34;width&#34;: 7197, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_b63f3e8b590a4ad484e7e9204200c6a2_/917b7c1f5e220168101ee693de3df186ed629cd42062f2b05eecdb23fc609f1a411aed2d13bc5f4c7b9a9eee8a612b5cd58851ca43847fde88f75f7e85bc7851&#34;, &#34;height&#34;: 2139}, &#34;overlay_title&#34;: &#34;Student Profiles&#34;, &#34;overlay_text&#34;: &#34;&#34;}, &#34;year_placeholder&#34;: &#34;Year&#34;}, &#34;student_page&#34;: {&#34;share_button&#34;: &#34;Share&#34;, &#34;workspace_id&#34;: &#34;published&#34;, &#34;share_linked_in&#34;: &#34;via LinkedIn&#34;, &#34;site_id&#34;: &#34;codenext&#34;, &#34;share_facebook&#34;: &#34;via Facebook&#34;, &#34;high_school_label&#34;: &#34;High school&#34;, &#34;next_steps_label&#34;: &#34;Next steps&#34;, &#34;link_copied_msg&#34;: &#34;Link to student profile copied&#34;, &#34;page_title&#34;: &#34;Student&#34;, &#34;graduation_year_label&#34;: &#34;Class of&#34;, &#34;share_twitter&#34;: &#34;via Twitter&#34;, &#34;link_label&#34;: &#34;Link&#34;, &#34;share_link&#34;: &#34;via Link&#34;}, &#34;curriculum_page&#34;: {&#34;lab_time&#34;: &#34;Recommended amount of time&#34;, &#34;page_title&#34;: &#34;Curriculum&#34;, &#34;workspace_id&#34;: &#34;published&#34;, &#34;purchase_button&#34;: &#34;Purchase the materials&#34;, &#34;banner&#34;: {&#34;image_alt_text&#34;: &#34;A from-above view of a desk with a laptop, some circuit board wires, and other miscellaneous equipment.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/Anv6IhYJ7_6D5HpPNz0gxxqNiWkUPt6KSNdA-5IycZam3dVtct_uZ1O09-ZlWMmN9xMD7f828a0i5iPsXW4GpQd_eOvHwmTj67AYcCE&#34;, &#34;width&#34;: 2400, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_950e0cf8d5b443caa758e426073ffa64_/c67a74c78eb66ef60619fc059efb17f1b583619fc3245ddd9780f95e9276f26f4c9a6aa19c2065980cd55607cc4b4a0e8e9a9166762c366fe1fa652040001b15&#34;, &#34;height&#34;: 737}, &#34;overlay_title&#34;: &#34;Code Next Curriculum&#34;, &#34;overlay_text&#34;: &#34;&#34;}, &#34;site_id&#34;: &#34;codenext&#34;, &#34;solution_reveal_text&#34;: &#34;Click to see a solution&#34;, &#34;download_button&#34;: &#34;Download this activity&#39;s curriculum&#34;, &#34;next_button&#34;: &#34;Next&#34;, &#34;lab_goals&#34;: &#34;Goals&#34;, &#34;lab_learn&#34;: &#34;Learn&#34;, &#34;lab_try&#34;: &#34;Try&#34;, &#34;sign_up_button&#34;: &#34;Sign up for curriculum&#34;, &#34;lab_takeaways&#34;: &#34;Takeaways&#34;, &#34;students_button&#34;: &#34;Students&#34;, &#34;teachers_button&#34;: &#34;Teachers&#34;, &#34;intro_paragraph&#34;: [{&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;&lt;strong&gt;Welcome to the Code Next Curriculum teaser page!&lt;/strong&gt; Here is a full activity you can do to create your own \u201cRaspimon\u201d - a virtual monster built with a RaspberryPi. No prior coding experience is needed!&#34;}]}, {&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;Like what you see below? We&#39;ll be releasing more curriculum in 2021.&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;https://docs.google.com/forms/d/e/1FAIpQLSf777GnBI5haLXgT__z27or_ZtiaKgIuU4j_SgCixHOm6bGCA/viewform&#34;, &#34;title&#34;: &#34;Sign up here to get alerts when the curriculum is ready&#34;}, &#34;space_after_link&#34;: true, &#34;space_before_link&#34;: true, &#34;text&#34;: &#34;&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;and click here to&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;https://forms.gle/9QdNXfNtejPXX3PfA&#34;, &#34;title&#34;: &#34;give us feedback&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: true, &#34;text&#34;: &#34;&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;!&#34;}]}], &#34;previous_button&#34;: &#34;Previous&#34;}, &#34;program_section&#34;: {&#34;site_id&#34;: &#34;codenext&#34;, &#34;rows&#34;: [{&#34;body&#34;: [{&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;For students who prefer in-person experiences, we currently have three labs, located in &lt;strong&gt;1) Oakland, California, 2) Chelsea, New York, and 3) Harlem, New York&lt;/strong&gt;. The Oakland and Chelsea labs are run and managed by Google. The Harlem lab is based at the Boys and Girls Club of Harlem, run and managed in partnership with the New York Urban League and Emerging Leaders in Technology and Engineering (ELiTE). &lt;i&gt;Temporarily, labs conduct virtual-only programming due to COVID-19&lt;/i&gt;.&#34;}]}, {&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;Programming is available for 9th-12th grade students who live in the areas around the labs, and cover topics from rigorous coding to entrepreneurship. To learn more about our Code Next Live programs, check out our&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;http://services.google.com/fh/files/misc/codenextapplicationfaq2.pdf&#34;, &#34;title&#34;: &#34;application FAQs&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: true, &#34;text&#34;: &#34;&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;.&#34;}]}], &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/UtRSGbMzYzF5RMepnjs3BTr9BhuRpq_E4j3z_lkuhcwd_raqClmXT9czTRdCJCdyg-wl8hfLZstSZl6XHJi5QRGyx1GiYQFSDeYc6w&#34;, &#34;width&#34;: 405, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_c2a232484e7249c7a98fcafb6b4854f6_/6fc3cabb5568fdefecb97344b4d26eddc7cd3ec3830a59f22e5c90f130af64b31ded6220fca4c0f027d3d324f1ae21a1ffa5e6f1dd787a484185a83c38ca721d&#34;, &#34;height&#34;: 432}, &#34;title&#34;: &#34;Code Next Live&#34;}, {&#34;body&#34;: [{&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;For &lt;strong&gt;students who live outside of our lab cities&lt;/strong&gt;, our Connect program is our online program for high school students across the United States. Connect consists of various clubs that students can apply to be a part of, where they engage in lessons with real Google employees. Club topics range from game design to hardware development.&#34;}]}, {&#34;content&#34;: [{&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;Programming is open to high school students anywhere in the United States, though we specifically target 9th-10th grade students. Clubs happen three times a year: fall term, winter term, and spring term (we break for summer). To learn more about our Code Next Connect programs, check out our&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;http://services.google.com/fh/files/misc/codenextapplicationfaq2.pdf&#34;, &#34;title&#34;: &#34;application FAQs&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: true, &#34;text&#34;: &#34;&#34;}, {&#34;link&#34;: {&#34;destination&#34;: &#34;&#34;, &#34;title&#34;: &#34;&#34;}, &#34;space_after_link&#34;: false, &#34;space_before_link&#34;: false, &#34;text&#34;: &#34;.&#34;}]}], &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/dLh1bPAnqNXkPyd9BpRQy85qUgi_hecnl4wKTrrY80go-fOL2UUNLPMOIMARrwNQRWM-H6m7IU1CUUgK4BXPs_TCNcvuF6xDPvI_0A&#34;, &#34;width&#34;: 338, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_c2a232484e7249c7a98fcafb6b4854f6_/13d56b4c09777469103c198c0a95a522a841272cccd63bdf4818340adecd771bd9f8b013b5b1926423e940dcfc543b9fb8c57a9d65f1f9b5e7da4797d43da41c&#34;, &#34;height&#34;: 429}, &#34;title&#34;: &#34;Code Next Connect&#34;}], &#34;banner&#34;: {&#34;image_alt_text&#34;: &#34;Diverse set of high school students hang out at the community center.&#34;, &#34;image&#34;: {&#34;url&#34;: &#34;https://lh3.googleusercontent.com/sszm2LiNAvJMIBFXkR0c8fhhedyAl7tAVaNyhwLrpI6nHVDyeUuzYTujDR23j497MiN39ViRsNaYS80CZlVYDs2Uy-6ojELsY3RUSw&#34;, &#34;width&#34;: 1781, &#34;file_path&#34;: &#34;_798146cdb9594c709108439abaccdd1c_/_c2a232484e7249c7a98fcafb6b4854f6_/bb4871f9fc60fca46678cfc6a7fb697c816cb5df8f2794d6912bcade2454719ab519bb9e8312f204fcceb5d7242f6e50fdb3afc9df1a89d78e6bbd8495e2c27b&#34;, &#34;height&#34;: 720}, &#34;overlay_title&#34;: &#34;What We Currently Offer&#34;, &#34;overlay_text&#34;: &#34;&#34;}, &#34;workspace_id&#34;: &#34;published&#34;}}`.replace('"', QUOTE_ESCAPE);
+      const kcContentObj = JSON.parse(cnKcEl.innerText);
+      cnKcEl.remove();
+
+      function unesacpeCnQuotes(obj) {
+        for (const key in obj) {
+          if (obj[key] !== null && typeof obj[key] === 'object') {
+            unesacpeCnQuotes(obj[key]);
+            return;
+          }
+          if (typeof obj[key] === 'string') {
+            obj[key] = obj[key].replace(QUOTE_ESCAPE, '"');
+          }
+
+        }
+      }
+      unesacpeCnQuotes(kcContentObj);
+
+      window['cn_kc'] = kcContentObj;
+    </script>
+    
+  <script src="/static/compiled/about.min.js?cache=4341757"></script>
+
+    
+<template class="tmpl-cn-snackbar-template">
+  <div class="mdc-snackbar">
+    <div class="mdc-snackbar__surface">
+      <div class="mdc-snackbar__label cn-snackbar-label"
+           role="status"
+           aria-live="polite">
+      </div>
+      
+    </div>
+  </div>
+</template>
+  </body>
+</html>
