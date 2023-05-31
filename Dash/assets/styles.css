@@ -1,0 +1,48 @@
+html, body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #6571f1;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  list-style: none;
+  padding-right: 1.25rem;
+}
+
+nav ul li {
+  display: inline-flex;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+nav ul li a:hover {
+  background-color: #FFF;
+  color: #808080;
+  border-radius: 0.3125rem;
+  opacity: 1;
+}
+
+.title{
+  text-align: center;
+
+}
